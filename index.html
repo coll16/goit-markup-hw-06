@@ -23,7 +23,9 @@
           >
           <ul class="list list">
             <li class="header-list-item">
-              <a class="header-link link header-studio" href="./index.html">Studio</a>
+              <a class="header-link link header-studio" href="./index.html"
+                >Studio</a
+              >
             </li>
             <li class="header-list-item">
               <a class="header-link link" href="./portfolio.html">Portfolio</a>
@@ -54,7 +56,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-tittle">Effective Solutions for Your Business</h1>
-          <button class="btn-hero" type="button" data-modal-open>Order Service</button>
+          <button class="btn-hero" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="strategy">
@@ -468,6 +472,24 @@
               </li>
             </ul>
           </div>
+          <div class="footer-sub">
+            <h3 class="subscribe">Subscribe</h3>
+            <form class="footer-form">
+              <input
+                class="footer-input"
+                name="user-email"
+                required
+                placeholder="E-mail"
+                type="email"
+              />
+              <button class="subscribe-btn" type="submit">
+                <span class="subscribe-text">Subscribe</span
+                ><svg class="footer-sub-icon">
+                  <use href="./images/footer-sub.svg#icon-footer-sub"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
@@ -478,6 +500,15 @@
             <use href="./images/symbol-defs.svg#icon-close-modal"></use>
           </svg>
         </button>
+        <p class="modal-tittle">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form">
+          <input class="modal-input" type="text" name="user-name" required />
+          <input class="modal-input" type="tel" name="user-phone" required />
+          <input class="modal-input" type="email" name="user-email" required />
+          <button type="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./javascript/modal.js"></script>

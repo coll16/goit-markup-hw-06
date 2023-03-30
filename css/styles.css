@@ -521,6 +521,94 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-sub {
+  margin-left: 80px;
+}
+
+.footer-input {
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  font-size: 14px;
+  width: 264px;
+  height: 40px;
+  background-color: #2E2F42;
+  box-sizing: border-box;
+  left: 57.5%;
+  right: 24.17%;
+  top: 44.87%;
+  bottom: 42.31%;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding-left: 16px;
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
+}
+
+.subscribe {
+  margin-bottom: 16px;
+left: 57.5%;
+right: 37.29%;
+top: 32.05%;
+bottom: 60.26%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.subscribe-btn {
+  color: #ffffff;
+  border: none;
+  margin-left: 24px;
+  display: flex;
+justify-content: center;
+align-items: center;
+width:
+Hug (165px);
+height:
+Hug (40px);
+padding: 8px 24px;
+background: #4D5AE5;
+cursor: pointer;
+border-radius: 4px;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-sub-icon {
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+margin-left: 16px;
+fill: #ffffff;
+}
+
+.subscribe-text {
+  width: 77px;
+height: 24px;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+
+.subscribe-btn:hover {
+  background-color: #404BBF;
+}
+
 .btn-list {
   justify-content: center;
   gap: 24px;
@@ -697,4 +785,36 @@ fill: #ffffff;
 .modal-svg {
   width: 8px;
   height: 8px;
+}
+
+.modal-tittle {
+width: 360px;
+height: 24px;
+left: 540px;
+top: 152px;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+margin-top: 48px;
+margin-bottom: 34px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.modal-form {
+
+}
+
+.modal-input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 26px;
+  width: 360px;
+  height: 40px;
+  left: 0px;
+  top: 84px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  padding-left: 38px;
 }
