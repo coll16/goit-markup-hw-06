@@ -762,7 +762,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-padding: 24px;
+padding: 72px 24px 24px 24px;
 }
 
 .modal-btn {
@@ -812,7 +812,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 text-align: center;
-margin-top: 48px;
 margin-bottom: 16px;
 letter-spacing: 0.02em;
 color: #2E2F42;
@@ -858,7 +857,7 @@ font-weight: 400;
 font-size: 12px;
 line-height: 14px;
 letter-spacing: 0.04em;
-padding-bottom: 4px;
+margin-bottom: 4px;
 color: #8E8F99;
 }
 
