@@ -588,10 +588,8 @@ color: #FFFFFF;
   display: flex;
 justify-content: center;
 align-items: center;
-width:
-Hug (165px);
-height:
-Hug (40px);
+width: 165px;
+height: 40px;
 padding: 8px 24px;
 background: #4D5AE5;
 cursor: pointer;
